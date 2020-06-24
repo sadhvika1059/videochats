@@ -5,7 +5,8 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sadhvika1059/videochat.git"
+    "url": "git://github.com/sadhvika1059/videochat.git",,
+    "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
