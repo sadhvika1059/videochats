@@ -139,5 +139,5 @@ function CreateDiv() {
     div.innerHTML = "Click to Mute/Unmute"
     document.querySelector('#peerDiv').appendChild(div)
     if (checkboxTheme.checked == true)
-        document.querySelector('#muteText').style.color = "#fff"
+        document.querySelector('#muteText').style.color = "#ffff"
 }
