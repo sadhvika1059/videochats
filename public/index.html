@@ -1,15 +1,28 @@
 <html>
 
 <head>
-    <title>Video Chat App</title>
+ <style>
+body {
+  background-color: lightgrey;
+  color: blue;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+}
+</style>
+    <title>Video Chat </title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="main.css" rel="stylesheet">
 </head>
 
 <body>
+<h1 style="text-align:center">V-chat</h1><p style="background-color:white;">send the url to ur friends</p>
+
     <div class="container-fluid">
-        <div class="row h-10 w-100">
+        <div class="row h-10 w-80">
             <div class="col">
                 <select id="filter" class="w-100 bg-dark text-light ml-2 mt-2 select font-weight-bold border">
                     <option value="none">Normal</option>
@@ -37,7 +50,7 @@
                     <video class="embed-responsive-item" muted></video>
                 </div>
             </div>
-            <div class="col-12 col-sm-6 d-flex justify-content-center">
+            <div class="col-10 col-sm-6 d-flex justify-content-center">
                 <div id="peerDiv" class="embed-responsive embed-responsive-16by9">
                 </div>
             </div>
